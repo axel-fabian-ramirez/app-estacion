@@ -31,7 +31,7 @@ function addBtnEstacion(info){
 	console.log(info);
 	console.log(clon),
 	// cargamos los datos del boton clonado
-	clon.querySelector(".btn-estacion").setAttribute("href", "detalle.php?chipid=Z"+info.chipid);
+	clon.querySelector(".btn-estacion").setAttribute("href", "detalle.php?chipid="+info.chipid);
 	clon.querySelector(".estacion-ubicacion").innerHTML= '<i class="rojo material-symbols-outlined">location_on</i>'+'<h3>'+info.ubicacion+'<h3>';
 	clon.querySelector(".estacion-visitas").innerHTML = '<h3>'+info.visitas+'</h3>'+'<i class="rojo material-symbols-outlined">rss_feed</i>'
 	clon.querySelector(".estacion-apodo").innerHTML = '<h2>'+info.apodo+'</h2>';
