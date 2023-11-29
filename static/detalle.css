@@ -262,7 +262,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #FFFFFF;
-    height: 100%;
+   
 }
 #ubicacion {
     line-height: 90%;
@@ -414,4 +414,9 @@
 
 #title-ubicacion{
     margin-bottom: 10px;
+}
+
+a{
+    
+    text-decoration: none;
 }

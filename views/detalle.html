@@ -361,9 +361,9 @@
  				<!-- Gráfico -->
  				<div id="panel-canvas" style="background-color: rgba(0,0,0,0.55);
     color: rgba(255, 255, 255, 1);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9) ;width: 100%;height: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9) ;width: 100%;
 ">
- 					<div id="contenedor-grafico" class="chart-container" style="position: relative; height: 100%; width: 100%; padding: 0.5em;"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>	
+ 					<div id="contenedor-grafico" class="chart-container" style="position: relative; width: 100%; padding: 0.5em;"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>	
 						<canvas id="myChart" class="border-debug chartjs-render-monitor" style="width: 617px; height: 400px; background-color: rgba(0, 0, 0, 0); display: block;" width="641" height="169"></canvas>
 					</div>
  				</div>
@@ -443,9 +443,25 @@
  				</div>
  			</div>
  			<!-- Fin botón viento -->
+ 			<a href="panel" >			
+ 			<div class="btn-control"  style="height: 100%;">
+ 				<div class="btn-control-container">
+ 					<div class="control-title">
+ 						<i class="fas fa-wind color-viento" aria-hidden="true"></i>
+ 					</div>	
+ 					<div id="viento" class="control-date">Volver al panel </div>
+
+ 					<i class="visible far fa-compass color-rojo align-center" aria-hidden="true"></i>	
+ 					<div id="viento__direccion"></div>
+ 				</div>
+ 			</div>
+ 			</a>
 
  		</div>
  		<!-- Fin botones para cambiar el panel -->
+
+ 	</div>
+
 
  	</div>
 <!-- 	<div>
